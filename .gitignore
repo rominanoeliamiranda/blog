@@ -1,4 +1,32 @@
-venv
-*.db
-*.sqlite3
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
 
+# Entornos virtuales
+venv/
+.env
+
+# Archivos de configuración
+*.log
+*.pot
+*.py[cod]
+
+# Archivos de compilación
+*.egg-info/
+dist/
+build/
+
+# Configuración de IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Otros
+*.bak
+*.swp
