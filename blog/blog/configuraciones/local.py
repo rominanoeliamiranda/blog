@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Agrega tus aplicaciones aquí
     'apps.posts',
+    'contacto'
 ]
 
 MIDDLEWARE = [
